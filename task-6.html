@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Grid Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content p {
+            font-size: 16px;
+            color: #333;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="157897060.png" alt="Group Working">
+            <div class="content">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="157897060.png" alt="Group Working">
+            <div class="content">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="157897060.png" alt="Group Working">
+            <div class="content">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="157897060.png" alt="Group Working">
+            <div class="content">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="157897060.png" alt="Group Working">
+            <div class="content">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="157897060.png" alt="Group Working">
+            <div class="content">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
